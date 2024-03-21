@@ -1,10 +1,12 @@
 using BookStore.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
+       
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
